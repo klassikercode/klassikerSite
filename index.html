@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Klassiker Code — Arquitecto de Software</title>
+  <meta name="description" content="Klassiker Code — Arquitecto de software especializado en SAP BTP. Soluciones modernas, creativas y elegantes." />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <a class="brand" href="#">
+        <img src="assets/logo.svg" alt="Klassiker Code logo" class="logo">
+        <span class="brand-text">Klassiker Code</span>
+      </a>
+      <nav class="nav">
+        <a href="#about">Sobre mí</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Klassiker Code</h1>
+          <p class="lead">Arquitecto de software — especializado en SAP BTP</p>
+          <p class="desc">Diseño de soluciones empresariales modernas, creativas y elegantes sobre SAP Business Technology Platform. Arquitectura, integración y adopción cloud-native.</p>
+          <p class="cta-row">
+            <a class="btn primary" href="#contact">Contactar</a>
+            <a class="btn ghost" href="#expertise">Ver experiencia</a>
+          </p>
+        </div>
+        <div class="hero-media">
+          <img src="assets/photo.jpg" alt="Foto de Klassiker Code" class="profile">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section surface">
+      <div class="container">
+        <h2>Sobre mí</h2>
+        <p>Soy arquitecto de software con amplia experiencia en plataformas empresariales y cloud. Me especializo en SAP BTP, integración de sistemas, diseño de APIs, y migraciones hacia arquitecturas escalables y mantenibles.</p>
+      </div>
+    </section>
+
+    <section id="expertise" class="section">
+      <div class="container grid-3">
+        <div class="card">
+          <h3>Arquitectura Cloud</h3>
+          <p>Diseño de soluciones escalables y resilientes aprovechando servicios de SAP BTP y arquitecturas basadas en microservicios.</p>
+        </div>
+        <div class="card">
+          <h3>Integración & APIs</h3>
+          <p>Integración entre sistemas empresariales, diseño de API-first y uso de eventos para soluciones desacopladas y extensibles.</p>
+        </div>
+        <div class="card">
+          <h3>DevOps & Observabilidad</h3>
+          <p>Automatización de despliegues, pipelines CI/CD y monitorización para entregar software con calidad y velocidad.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section surface">
+      <div class="container">
+        <h2>Contacto</h2>
+        <p>¿Interesado en colaborar? Escríbeme a <a href="mailto:klassiker.code@gmail.com">klassiker.code@gmail.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Klassiker Code — Arquitecto de software</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
